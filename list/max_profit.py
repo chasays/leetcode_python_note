@@ -25,6 +25,14 @@
 
 
 # resolution
+# 解题思路，[i+1] -[i], 只要结果为>0的，就是正收益，就累加
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+        if not len(prices):return 0
+        sum = 0
+        for i in range(len(prices)-1):
+            div = prices[i+1] - prices[i]
+            if div > 0:
+                sum += div
+        return sum
