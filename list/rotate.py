@@ -18,7 +18,7 @@
 
 链接：https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2skh7/
 """
-# 用python自带的切片功能
+# 用python自带的切片功能，要考虑到 K 超过nums本身的长度
 
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
