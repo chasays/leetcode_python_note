@@ -31,7 +31,7 @@
 
 
 ##  字符串类 
-1. [反转字符串]()
+1. [反转字符串](https://github.com/chasays/leetcode_python_note/blob/main/string/reverse_string.py)
 2. [整数反转]()
 
 ## 链表类
